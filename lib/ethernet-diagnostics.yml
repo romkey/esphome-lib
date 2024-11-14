@@ -1,0 +1,18 @@
+text_sensor:
+  - platform: ethernet_info
+    ip_address:
+      name: Ethernet IP Address
+      address_0:
+        name: Ethernet IP Address 0
+      address_1:
+        name: Ethernet IP Address 1
+      address_2:
+        name: Ethernet IP Address 2
+      address_3:
+        name: Ethernet IP Address 3
+      address_4:
+        name: Ethernet IP Address 4
+    dns_address:
+      name: Ethernet DNS Address
+    mac_address:
+      name: Ethernet MAC Address
